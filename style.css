@@ -1,6 +1,6 @@
 
 .main-content__title{
-  font-family: Roboto
+  font-family: Roboto;
 }
 .wrapper {
   margin: auto;
@@ -10,11 +10,14 @@
   display: inline-block;
 }
 .logo{
+  position: relative;
   margin-right: 63%;
   padding: 40px 0;
+  padding-left: 44px;
+  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
 }
 .header{
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
 .menu{
@@ -26,4 +29,25 @@
 }
 .menu__item:last-child{
   padding-right: 0;
+}
+
+.logo__circle{
+  width: 28px;
+  height: 28px;
+  left: 0;
+  top:50%;
+  position: absolute;
+  transform: translateY(-50%);
+  border-radius:50%;
+  opacity: .7;
+
+}
+.logo__circle_color_blue{
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
+}
+.logo__circle_color_dark-blue{
+  position: absolute;
+  background: #0056EC;
 }
