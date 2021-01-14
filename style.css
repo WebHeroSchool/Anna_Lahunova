@@ -35,7 +35,7 @@
 .wrapper {
   margin: auto;
   width: 83%;
-  padding-left: 35px;
+  padding-left: 33px;
 }
 .logo,.menu{
   display: inline-block;
@@ -53,6 +53,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 105px;
+  margin-right: 40px;
    }
 .menu{
   display: flex;
