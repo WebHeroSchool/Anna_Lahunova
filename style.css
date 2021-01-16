@@ -224,3 +224,111 @@
   overflow: hidden;
 }
 }
+@madia (max-width: 1920px){
+  .wrapper {
+    padding-left: 50px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 168px;
+  }
+  .main {
+    padding-top: 65px;
+    padding-bottom: 700px;
+    padding-right: 63%;
+    background-size: 50%;
+    margin-right: 34px;
+}
+.logo {
+    padding-top: 29px;
+    padding-left: 47px;
+    font: bold 24px/39px pt_serifbold, arial, helvetica, sans-serif;
+  }
+  .logo__circle {
+      width: 28px;
+      height: 28px;
+      margin-top: 13px;
+      margin-left: 4px;
+}
+.menu__item {
+    padding: 0 10px;
+    font: 500 18px/22px Roboto, arial, helvetica, sanc-serif;
+    margin-top: 32px;
+  }
+  .main__title {
+    margin: 10px 0 34px 0;
+    font: 700 66px/88px pt_serifbold, arial, helvetica, sans-serif;
+}
+.main__subtitle {
+    margin: 0 0 42px 0;
+    font: 400 22px/26px Roboto, arial, helvetica, sans-serif;
+    width: 455px;
+}
+.main__button {
+    display: inline-block;
+    font: 18px/22px Roboto, arial, helvetica, sans-serif;
+    padding: 17px 52px 17px 13px;
+  }
+}
+@media(max-width: 1365px){
+  .wrapper {
+    padding-left: 189px;
+  }
+  .logo {
+    padding: 31px 0;
+    padding-left: 45px;
+    font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
+}
+.menu__item:last-child {
+    margin-right: 142px;
+}
+.menu__item {
+    padding: 0 14px;
+    font: 500 14px/17px Roboto, arial, helvetica, sanc-serif;
+    margin-top: 5px;
+}
+.header {
+    margin-bottom: 90px;
+  }
+  .main {
+      padding-top: 15px;
+      padding-bottom: 100px;
+      padding-right: 43%;
+      background-size: 53%;
+      margin-right: 205px;
+  }
+  .main__title {
+    margin: 0 0 37px 0;
+    font: 700 50px/67px pt_serifbold, arial, helvetica, sans-serif;
+}
+.main__subtitle {
+    margin: 0 0 42px 0;
+    font: 400 18px/21px Roboto, arial, helvetica, sans-serif;
+    width: 340px;
+}
+.main__button {
+    font: 14px/25px Roboto, arial, helvetica, sans-serif;
+    padding: 10px 34px 11px 10px;
+}
+}
+@media (max-width:1024px){
+  .wrapper {
+    padding-left: 35px;
+    margin: 0;
+    width: 94%;
+}
+.logo {
+    padding: 31px 0;
+    padding-left: 45px;
+    font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
+    margin-right: 44%;
+}
+.main {
+    padding-top: 15px;
+    padding-bottom: 100px;
+    padding-right: 33%;
+    background-size: 63%;
+    width: 434px;
+  }
+}
