@@ -448,8 +448,11 @@
   .menu{
     display: none;
   }
+  .wrapper{
+    margin: 0 11px;
+  }
   .header{
-        margin: -14px 10px 5px 0;
+        margin: -12px 8px 5px 3px;
   }
   .logo__circle {
       width: 30px;
@@ -464,19 +467,19 @@
   }
   .main__title {
     margin: auto;
-    font: bold 32.5px/39px pt_serif, arial, helvetica, sans-serif;
+    font: bold 32px/39px pt_serif, arial, helvetica, sans-serif;
     width: 286px;
-    padding: 16px 0 34px 0px;
+    padding: 14px 0 34px 0px;
 }
 .main__subtitle {
   margin: auto;
   font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   width: 244px;
-  padding-bottom: 27px;
+  padding: 0 0 27px 6px;
 }
   .main__button{
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-    padding: 13px 29px 13px 14px;
+    padding: 13px 20px 14px 15px;
   }
   .menu__btn {
     display: flex;
