@@ -188,7 +188,7 @@
       margin-right: 15px;
     }
   .logo {
-    margin-right: 388px;
+    margin-right: 42%;
     padding: 31px 0;
     padding-left: 49px;
     font: bold 24px/32px pt_serifbold, arial, helvetica, sans-serif;
@@ -229,9 +229,9 @@
     white-space: nowrap;
 }
 }
-@media (max-width: 1160px){
+@media (max-width: 1170px){
   .logo {
-    margin-right: 38%;
+    margin-right: 35%;
   }
   .main {
     background-size: 54%;
@@ -243,15 +243,8 @@
   font: 500 16px/21px roboto, arial, helvetica, sans-serif
 }
 }
-@media (max-width: 1055px){
-  .wrapper {
-    width: 80%;
-  }
-  .logo{
-    margin-right: 0;
-  }
-}
-@media(max-width:1040px){
+
+@media(max-width:1055px){
   .wrapper {
     width: 93%;
     padding-left: 1px;
@@ -294,17 +287,41 @@
     white-space: nowrap;
 }
 }
-@media (max-width: 960px){
+@media (max-width: 1080px){
+  .wrapper {
+    width: 80%;
+    margin: 0px 122px;
+}
   .logo{
-    margin-right: 40%;
+    margin-right: 34%;
+  }
+  .main__title{
+    font: normal 45px/58px pt_serifbold, arial, helvetica, sans-serif;
   }
 }
-@media(max-width: 855px){
+@media (max-width: 975px){
+ .wrapper{
+   width: 80%
+ }
+  .logo{
+    margin-right: 25%;
+  }
+  .main{
+    background-size: 54%;
+  }
+  .main__title{
+    font: normal 44px/56px pt_serifbold, arial, helvetica, sans-serif;
+  }
+  .main__subtitle{
+    font: 500 17px/22px roboto, arial, helvetica, sans-serif;
+  }
+}
+@media(max-width: 875px){
   .logo {
     padding: 31px 0;
     padding-left: 45px;
     font: bold 21px/31px pt_serifbold, arial, helvetica, sans-serif;
-    margin-right: 40%;
+    margin-right: 30%;
 }
 .logo__circle {
     width: 25px;
@@ -314,9 +331,12 @@
 .menu__item {
     padding: 0px 7px;
 }
+.main{
+  background-size: 53%
+}
 .main__title {
     margin: 0 0 34px 2px;
-    font: normal 44px/58px pt_serifbold, arial, helvetica, sans-serif;
+    font: normal 42px/56px pt_serifbold, arial, helvetica, sans-serif;
     width: 434px;
 }
 .main__subtitle {
@@ -325,7 +345,24 @@
     width: 347px;
 }
 }
+@media (max-width:826px){
+  .wrapper{
+    width: 83%;
+    margin: 0 75px;
+  }
+  .logo{
+    margin-right: 30%;
+  }
+  .main__title{
+    font: normal 40px/54px pt_serifbold, arial, helvetica, sans-serif;
+  }
+
+}
 @media (max-width: 765px) {
+  .wrapper{
+    width: 84%;
+    margin: 0 80px;
+  }
   .header{
     margin-bottom: 57px;
   }
@@ -333,7 +370,7 @@
     padding: 26px 0;
     padding-left: 45px;
     font: bold 20px/30px pt_serifbold, arial, helvetica, sans-serif;
-    margin-right: 40%;
+    margin-right: 31%;
 }
 .menu__item {
     padding: 0px 7px;
@@ -348,7 +385,7 @@
     }
     .main__title {
       margin: 0 0 37px 2px;
-      font: normal 40px/55px pt_serifbold, arial, helvetica, sans-serif;
+      font: normal 37px/52px pt_serifbold, arial, helvetica, sans-serif;
       width: 434px;
   }
   .main__subtitle {
@@ -357,6 +394,17 @@
       width: 328px;
   }
   }
+@media (max-width: 717px){
+  .logo{
+      margin-right: 27%;
+  }
+  .main{
+      background-size: 54%;
+  }
+  .main__title {
+    font: normal 36px/52px pt_serifbold, arial, helvetica, sans-serif;
+    width: 430px;
+}
 @media (max-width:680px){
   .logo{
     margin-right: 29%;
@@ -369,6 +417,22 @@
   }
   .main__subtitle {
     font: 500 14px/18px roboto, arial, helvetica, sans-serif;
+    width: 306px;
+}
+}
+@media (max-width: 688px){
+  .logo{
+    margin-right: 24%;
+  }
+  .main{
+    background-size: 53%;
+  }
+  .main__title {
+    font: normal 35px/49px pt_serifbold, arial, helvetica, sans-serif;
+    width: 417px;
+  }
+  .main__subtitle {
+    font: 500 14px/19px roboto, arial, helvetica, sans-serif;
     width: 306px;
 }
 }
