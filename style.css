@@ -123,6 +123,21 @@
   position: absolute;
   visibility: hidden;
 }
+@keyframes moving {
+  0%{
+    transform: scale3d(1, 1, 1);
+  }
+  50%{
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
+  100%{
+    transform: scale3d(1, 1, 1);
+  }
+}
+.logo:hover{
+  animation: moving 3s infinite;
+}
+
 
 @media(min-width: 1920px){
 .wrapper {
